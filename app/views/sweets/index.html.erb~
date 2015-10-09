@@ -2,7 +2,15 @@
 
 <h1>Listing Sweets</h1>
 
-
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
 
   <tbody>
     <% @sweets.each do |sweet| %>
